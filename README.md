@@ -2,7 +2,10 @@
 
 Jyputer notebook for investment research.
 
-data/ 文件夹下的压缩文件需要解压到 data/ 文件夹下。因为我不想使用 GitLargeFile，所以只能把压缩后的数据文件传上来。
+data/ 文件夹下的压缩文件需要解压到 data/ 文件夹下。
+
+因为 csv 格式的 Tick 文件容量巨大，而 GitHub、Gitee 平台对项目容量有限制（毕竟硬盘要花钱啊）：
+![平台对项目容量的限制](docs/large_file.png ''对项目容量的限制'')
 
 
 ## 期货部分
