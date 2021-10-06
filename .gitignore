@@ -131,4 +131,12 @@ dmypy.json
 
 # Project
 temp/
-SHFE.al2111_Tick.csv
+
+# Large file
+SHFE.*.csv
+DCE.*.csv
+CZCE.*.csv
+CFFEX.*.csv
+INE.*.csv
+SSE.*.csv
+SZSE.*.csv
