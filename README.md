@@ -2,7 +2,10 @@
 
 Jyputer notebook for investment research.
 
-data/ 文件夹下的压缩文件需要解压到 data/ 文件夹下。
+
+## 数据文件的说明
+
+在本地运行本项目的 .ipynb 文件（Jupyter 文件）之前，请将 data/ 文件夹下的压缩文件解压出来，放在 data/ 文件夹下。
 
 因为 csv 格式的 Tick 文件容量巨大，而 GitHub、Gitee 平台对项目容量有限制（毕竟硬盘要花钱啊）：
 
