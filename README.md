@@ -19,7 +19,7 @@ Jyputer notebook for investment research.
 - [过滤](过滤.ipynb)
 - [时区](时区.ipynb)
 - [交易时间](交易时间.ipynb)
-- [Tick转Bar第2部分](tick2bar_completed.ipynb)
+- [Tick转Bar_第2部分](tick转bar_第2部分.ipynb)
 
 
 ## 股票部分
