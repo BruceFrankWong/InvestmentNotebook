@@ -15,7 +15,11 @@ Jyputer notebook for investment research.
 ## 期货部分
 
 - [Tick数据](tick_data.ipynb)
-- [Tick数据转Bar数据](tick2bar.ipynb)
+- [Tick转Bar](tick2bar.ipynb)
+- [过滤](filter.ipynb)
+- [时区](timezone.ipynb)
+- [交易时间](trading_time.ipynb)
+- [Tick转Bar第2部分](tick2bar_completed.ipynb)
 
 
 ## 股票部分
