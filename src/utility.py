@@ -7,5 +7,5 @@ import os
 from pathlib import Path
 
 
-PACKAGE_PATH: Path = Path(os.path.abspath(''))
-DATA_PATH: Path = PACKAGE_PATH.joinpath('data')
+# JupyterLab 运行时的路径。
+NOTEBOOK_PATH: Path = Path(os.path.abspath(''))

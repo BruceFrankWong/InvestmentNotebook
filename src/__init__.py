@@ -3,4 +3,4 @@
 __author__ = 'Bruce Frank Wong'
 
 
-from .utility import PACKAGE_PATH
+from .utility import NOTEBOOK_PATH
