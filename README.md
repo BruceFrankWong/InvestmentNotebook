@@ -126,23 +126,29 @@ Jyputer notebook for investment research.
 
 4. 安装 JupyterLab
 
+    以下在复制代码是不要复制大于号（>），这是一个 Windows 命令行提示符的标志（Linux 使用美元符号）。
+
     1. 创建虚拟环境
     
        ```
-       mkvirtualenv <ENV>
+       > mkvirtualenv <ENV>
        ```
        
-       可以先建立一个纯粹的 JupyterLab 虚拟环境，安装好必须的库，以后可以用 `cpvirtualenv ENVNAME [TARGETENVNAME]` 来复制一个工作用的 JupyterLab 环境。
+       可以先建立一个纯粹的 JupyterLab 虚拟环境，安装好必须的库，以后可以用:
        
-       或者每次都从头创建。
+       ```
+       cpvirtualenv ENVNAME [TARGETENVNAME]
+       ```
        
-       我们的例子中用 Jupyter 做虚拟环境名称，路径位于 D:\Jupyter。
+       来复制一个工作用的 JupyterLab 环境。当然也可以每次都从头创建。
+       
+       在我们的例子中，用 Jupyter 做虚拟环境名称，路径位于 D:\Jupyter。
        
        ```
        # 如果 D:\Jupyter 文件夹还不存在：
-       mkdir D:\Jupyter
+       > mkdir D:\Jupyter
        
-       mkvirtualenv Jupyter -a D:\Jupyter
+       > mkvirtualenv Jupyter -a D:\Jupyter
        ```
        
        CMD 窗口的提示符会有变化，最前面以 (Jupyter) 开头，表示位于虚拟环境中。
@@ -152,10 +158,16 @@ Jyputer notebook for investment research.
     2. 安装 JupyterLab
     
         ```
-        pip install JupyterLab
+        > pip install JupyterLab
+        ```
+    
+    3. 安装依赖库
+    
+        ```
+        > pip install [依赖库]
         ```
         
-    3. 启动
+    4. 启动
     
         ```
         > jupyter lab
@@ -172,19 +184,20 @@ Jyputer notebook for investment research.
 
 ## 项目历史
 
-## 期货部分
+### 2020-10-05
 
-- [Tick数据](tick数据.ipynb)
-- [Tick转Bar](tick转bar.ipynb)
-- [过滤](过滤.ipynb)
-- [时区](时区.ipynb)
-- [交易时间](交易时间.ipynb)
-- [Tick转Bar（第2部分）](tick转bar_第2部分.ipynb)
+将两个项目并行考虑。
 
+并对 **InvestmentWorkshop** 的前期代码增加注释后并入 **InvestmentNotebook**，为新入门程序开发的朋友提供便于阅读理解的代码。
 
-## 股票部分
+### 2020-09-28
 
-精力不够，推后实现。
+创建项目 **InvestmentNotebook**，用于 **InvestmentWorkshop** 项目的一些构想推演。
+
+### 2020-09-08
+
+创建项目 **InvestmentWorkshop**，计划从回测开始，最终实现程序化交易。
+
 
 ## 数据文件的说明
 
