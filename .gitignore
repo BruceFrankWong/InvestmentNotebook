@@ -131,6 +131,7 @@ dmypy.json
 
 # Project
 temp/
+RESULT/
 
 # Large file
 SHFE.*.csv
