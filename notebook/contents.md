@@ -1,8 +1,7 @@
 # 目录
 
-以下大致按照处理数据的顺序编排章节。
 
-## 获取历史数据
+## 目的
 
 所有的研究，无论是基本面还是技术面，不仅仅是金融领域，都是从获取数据开始，再到总结出规律，最终为交易或者预测服务。
 
@@ -17,16 +16,7 @@
 这些数据用人工下载非常消耗时间，我们可以写一个简单的爬虫来辅助处理。
 
 
-### 依赖库
-
-需要使用到的第三方库：
-
-- requests
-
-- lxml
-
-
-### 说明
+## 说明
 
 1. 定位
 
@@ -57,24 +47,36 @@ Path()                 # 转换为 Path 对象。
 
 项目打包了一个文件夹 **RESULT/**，这个文件夹中只有一个文件，主要是担心新手克隆了整个项目到本地，但是没有创建该文件夹，结果本地运行出错。
 
-### 具体内容
+3. 依赖库
 
-以下按照数据源编排章节。
+需要使用到的第三方库：
 
-- [获取上期所历史数据](获取上期所历史数据.ipynb)
+- requests
 
-- [获取中金所历史数据](获取中金所历史数据.ipynb)
+- lxml
 
-- [获取郑商所历史数据](获取郑商所历史数据.ipynb)
+- lxrd
 
-- [获取大商所历史数据](获取大商所历史数据.ipynb)
+- pylxml
 
-
-## 处理压缩文件
-
-- [处理压缩文件](处理压缩文件.ipynb)
+- peewee
 
 
-## 读取数据
+## 从中金所开始
 
-- [读取数据](读取数据.ipynb)
+- [获取中金所历史数据](collect_data\download_cffex_history_data.ipynb)
+
+- [处理zip压缩文件](collect_data\process_zip_files.ipynb)
+
+- [读取中金所历史数据](collect_data\read_cffex_history_data.ipynb)
+
+- [写入数据库](collect_data\save_to_database.ipynb)
+
+
+## 获取其它交易所数据
+
+- [获取上期所历史数据](collect_data\download_shfe_history_data.ipynb)
+
+- [获取郑商所历史数据](collect_data\download_czce_history_data.ipynb)
+
+- [获取大商所历史数据](collect_data\download_dce_history_data.ipynb)
