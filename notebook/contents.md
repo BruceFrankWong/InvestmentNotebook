@@ -29,19 +29,21 @@
 
 ## 获取交易所历史数据
 
-- [获取中金所历史数据](collect_data\download_cffex_history_data.ipynb)
+- [获取中金所历史数据](collect_data/download_cffex_history_data.ipynb)
 
-- [处理zip压缩文件](collect_data\process_zip_files.ipynb)
+- [处理zip压缩文件](collect_data/process_zip_files.ipynb)
 
-- [读取中金所历史数据](collect_data\read_cffex_history_data.ipynb)
+- [读取中金所历史数据](collect_data/read_cffex_history_data.ipynb)
 
-- [写入数据库](collect_data\save_to_database.ipynb)
+- [写入数据库](collect_data/save_to_database.ipynb)
 
-- [获取上期所历史数据](collect_data\download_shfe_history_data.ipynb)
+- [完整的流程](collect_data/completed_flow.ipynb)
 
-- [获取郑商所历史数据](collect_data\download_czce_history_data.ipynb)
+- [获取上期所历史数据](collect_data/download_shfe_history_data.ipynb)
 
-- [获取大商所历史数据](collect_data\download_dce_history_data.ipynb)
+- [获取郑商所历史数据](collect_data/download_czce_history_data.ipynb)
+
+- [获取大商所历史数据](collect_data/download_dce_history_data.ipynb)
 
 ## 获取交易所其它数据
 
