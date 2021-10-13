@@ -133,6 +133,11 @@ dmypy.json
 temp/
 RESULT/
 
+# SQLite
+.sqlite
+.sqlite-wal
+.sqlite-shm
+
 # Large file
 SHFE.*.csv
 DCE.*.csv
