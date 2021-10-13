@@ -41,7 +41,7 @@
          
         如果要改变这个位置：Windows 菜单 -> 设置 -> 系统 -> 关于（在左侧） -> 高级系统设置（在右侧） -> 环境变量 -> 新建系统变量，如下图：
          
-        ![virtualenvwrapper_workon_home](pictures/virtualenvwrapper_workon_home.png)
+        ![virtualenvwrapper_workon_home](attachment/virtualenvwrapper_workon_home.png)
 
     4. 使用
     
