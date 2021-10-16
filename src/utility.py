@@ -57,14 +57,22 @@ def is_run_in_jupyter() -> bool:
     """
     try:
         shell = get_ipython().__class__.__name__
+        
+        # 运行在 Jupyter Notebook 中或者 qtconsole 中。
         if shell == 'ZMQInteractiveShell':
-            return True   # Jupyter notebook or qtconsole
+            return True
+        
+        # 运行 IPython 的终端中。
         elif shell == 'TerminalInteractiveShell':
-            return False  # Terminal running IPython
+            return False
+        
+        # 其它类型。
         else:
-            return False  # Other type (?)
+            return False
+    
+    # 没有找到 get_ipython()，很有可能是标准 Python 解释器。
     except NameError:
-        return False      # Probably standard Python interpreter
+        return False
 
 
 def clean_directory(directory: Path, file_type: List[str]):
