@@ -134,9 +134,9 @@ temp/
 RESULT/
 
 # SQLite
-.sqlite
-.sqlite-wal
-.sqlite-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
 
 # Large file
 SHFE.*.csv
